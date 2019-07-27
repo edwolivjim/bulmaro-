@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Administrador</title>
+    <link rel="stylesheet" href="~/css/estilos.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body >
+
+    <main role="main">
+
+        <section class="content-form">
+
+            <h2 class="sub-title">CUENTA ADMINISTRADOR</h2>
+
+            <form action="" method="POST" id="registrar-form">
+
+
+
+                <div class="form-group width-12" style="color:black">
+                    <h3 class="sub-form"> BUSCAR INCIDENCIA </h3>
+                    <div class="width-4">
+                        <label>
+                            Tipo Incidencia
+                            <select class="width-6">
+                                <option value="A"> Nada </option>
+                                <option value="A"> Todo </option>
+                                <option value="A"> Software </option>
+                                <option value="B"> Hardware </option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="width-4">
+                        <label>
+                            Estado
+                            <select class="width-4">
+                                <option value="A"> Nada </option>
+                                <option value="A"> Todo </option>
+                                <option value="A"> Cerrado </option>
+                                <option value="B"> Abierto </option>
+
+                            </select>
+                        </label>
+                    </div>
+
+
+                    <div class="width-4">
+                        <label>
+                            Busqueda Personalizada
+                            <div class="width-2">
+                                <input type="text" placeholder="Numero Cuenta" class="form-control" name="maquina" id="maquina" />
+                            </div>
+
+                            </select>
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="form-group width-12">
+                    <h3 class="sub-form"> BUSQUEDA ENCONTRADA </h3>
+
+
+
+
+
+
+                </div>
+                <div class="form-group width-12">
+
+
+
+
+
+
+                    <div class="form-group width-12">
+                        <h3 class="sub-form">  </h3>
+                    </div>
+
+
+                    <div class="form-group width-12">
+                        <div class="width-4">
+                            <input type="submit" value="BUSCAR" class="form-control btn btn-principal" id="btn-enviar" />
+                        </div>
+                        <div class="width-4">
+                            <input type="button" value="LIMPIAR" class="form-control btn btn-principal" id="btn-limpiar" />
+                        </div>
+                    </div>
+
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <div class="derechos">
+            Derechos Reservados © <a href="Aplicaciones Distribuidas" target="_blank"> PROYECTO APLICACIONES </a>  2019
+        </div>
+    </footer>
+
+</body>
+</html>
